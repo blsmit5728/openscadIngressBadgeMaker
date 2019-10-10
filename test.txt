@@ -1,0 +1,2 @@
+CD "%~dp0"
+FOR %%f in (builder, connector, engineer, explorer, hacker, ifs, illuminator, liberator, mind-controller, pioneer, purifier, translator, trekker)  DO "C:\Program Files\OpenSCAD\openscad.exe" -o %%f.stl -D "badge = """%%f"" "C:\Temp\STL\IFS Badges\ifsbadge.scad"
